@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* The default value is content-box. The difference is
+     border-box subtracts its border value and/or padding
+     value if specified from the elements total width
+
+     border-box example: 
+     100 width - 5 border - 5 padding = 80 width
+     content-box example: 
+     100 width + 5 border + 5 padding = 120 width
+  */
+  box-sizing: border-box;
+}
