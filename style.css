@@ -13,6 +13,13 @@
   box-sizing: border-box;
 }
 
+h1 {
+  height: 60px;
+  text-align: center;
+  padding: 15px 0;
+  background-color: #fdcb6e;
+}
+
 #container {
   display: flex;
   flex-wrap: wrap;
@@ -22,24 +29,24 @@
   gap: 10px;
 
   height: 600px;
+  margin: 15px;
 }
 
 figure {
   flex-basis: 200px;
-  flex-grow: 1;
+  /* flex-grow: 1; */
 
   padding: 10px;
   border: 3px solid black;
-  background-color: pink;
-  height: 250px;
+  background-color: #ffeaa7;
 }
 
 blockquote {
-  white-space: pre-line;
+  margin-bottom: 10px;
 }
 
-@media (min-width: 1039px) {
+@media (min-width: 859px) {
   figure {
-    flex-basis: 514px;
+    flex-basis: 400px;
   }
 }
